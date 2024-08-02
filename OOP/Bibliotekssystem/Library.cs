@@ -3,9 +3,17 @@ public class Library
     public static Library instance = new();
     private Dictionary<string, Book> books = new();
     List<User> users = new();
-    public List<Book> Books { get; set; }
+    public List<Book> Books
+    {
+        get { return books.Values.ToList(); }
+        set { books = value.ToDictionary(x => x.ISBN); }
+    }
 
-    public List<User> Users { get; set; }
+    public List<User> Users
+    {
+        get { return users; }
+        set { users = value; }
+    }
 
     public void AddBook(Book book)
     {
