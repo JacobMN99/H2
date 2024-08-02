@@ -1,5 +1,7 @@
 public class Book
 {
+    //Der er ingen grund til at lave dine properties dobbelt, du kan lavet dem som auto properties
+    //og sætte deres accessors til private hvis det er nødvendigt.
     string title;
     string author;
     string isbn;
@@ -22,6 +24,7 @@ public class Book
         set { isbn = value; }
     }
 
+    //Available skal kun kunne sætte fra Borrow og Return Book metoder, lige pt er den public i både set og get funktionen.
     public bool Available
     {
         get { return available; }

@@ -1,8 +1,16 @@
 public class Library
 {
+    // Personligt ville jeg kalde instancen af Library for noget andet end instance,
+    // da man hvis man kommer længere ned i koden ikke
+    // ved hvad instance er uden at man skal køre musen
+    // henover den for at se at det faktisk er Library der er tale som.
+    // og hvorfor er den statisk?
     public static Library instance = new();
+
+    //Hvorfor har du valgt at bruge et Dictionary her også en liste for brugere?
     private Dictionary<string, Book> books = new();
     List<User> users = new();
+
     public void AddBook(Book book)
     {
         books.Add(book.ISBN, book);
@@ -43,7 +51,7 @@ public class Library
         {
             book.DisplayInfo();
         }
-        else 
+        else
         {
             Console.WriteLine("Book not found.");
         }
