@@ -1,0 +1,1 @@
+Der mangler en .gitignore fil, ellers får man alt for mange ting med når man bygger projektet som ikke skal være i git, så som release og debug folders.
