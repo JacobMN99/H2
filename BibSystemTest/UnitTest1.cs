@@ -1,7 +1,9 @@
 namespace BibSystemTest;
 
+//Navngivning på din test er ikke særlig retvisende for hvad det er for test du vil køre.
 public class UnitTest1
 {
+    //Der mangler minimum en assertion for at denne test kan give mening.
     [Fact]
     public void FindBookByISBNStressTest()
     {
@@ -10,8 +12,7 @@ public class UnitTest1
             Library.instance.AddBook(new Book($"Title{i}", $"Author{i}", $"ISBN{i}"));
         }
 
-        Library.instance.FindBookByISBN("ISBN19999"); 
-        
+        Library.instance.FindBookByISBN("ISBN19999");
     }
 
     [Fact]
@@ -48,6 +49,9 @@ public class UnitTest1
         Assert.Equal(4, user.BorrowedBooks.Count);
     }
 
-    
+    //Der mangler en hel del test for at dække alle metoderne i Library klassen.
+    //Så som AddUser, DisplayAllBooks, DisplayAvailableBooks, RemoveBook
 
+    //Der mangler en hel del test for at dække alle metoderne i User og Premium User klassen.
+    //Så som BorrowBook, ReturnBook
 }

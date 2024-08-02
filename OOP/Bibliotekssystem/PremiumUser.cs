@@ -1,7 +1,9 @@
-using System.Xml;
-
 public class PremiumUser : User
 {
+    //Hvorfor har du både name og id med her, når du nedarver fra User?
+    //Hvordan er det meningen at id skal sættes?
+    //Hvordan er det meningen at id skal bruges?
+    //Ellers er der samme problemer her som i User klassen.
     readonly int id;
     string name;
     List<Book> borrowedBooks = new List<Book>();
@@ -10,7 +12,7 @@ public class PremiumUser : User
         get { return name; }
         set { name = value; }
     }
-    
+
     public List<Book> BorrowedBooks
     {
         get { return borrowedBooks; }
