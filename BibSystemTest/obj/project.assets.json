@@ -5524,19 +5524,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jma\\.nuget\\packages\\": {}
+    "C:\\Users\\dva\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jma\\OneDrive - JCD A S\\Skrivebord\\Skole\\H2\\BibSystemTest\\BibSystemTest.csproj",
+      "projectUniqueName": "E:\\Personal\\School\\H2Jacob\\BibSystemTest\\BibSystemTest.csproj",
       "projectName": "BibSystemTest",
-      "projectPath": "C:\\Users\\jma\\OneDrive - JCD A S\\Skrivebord\\Skole\\H2\\BibSystemTest\\BibSystemTest.csproj",
-      "packagesPath": "C:\\Users\\jma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jma\\OneDrive - JCD A S\\Skrivebord\\Skole\\H2\\BibSystemTest\\obj\\",
+      "projectPath": "E:\\Personal\\School\\H2Jacob\\BibSystemTest\\BibSystemTest.csproj",
+      "packagesPath": "C:\\Users\\dva\\.nuget\\packages\\",
+      "outputPath": "E:\\Personal\\School\\H2Jacob\\BibSystemTest\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\jma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5544,14 +5549,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\jma\\OneDrive - JCD A S\\Skrivebord\\Skole\\H2\\OOP\\Bibliotekssystem\\Bibliotekssystem.csproj": {
-              "projectPath": "C:\\Users\\jma\\OneDrive - JCD A S\\Skrivebord\\Skole\\H2\\OOP\\Bibliotekssystem\\Bibliotekssystem.csproj"
+            "E:\\Personal\\School\\H2Jacob\\OOP\\Bibliotekssystem\\Bibliotekssystem.csproj": {
+              "projectPath": "E:\\Personal\\School\\H2Jacob\\OOP\\Bibliotekssystem\\Bibliotekssystem.csproj"
             }
           }
         }
